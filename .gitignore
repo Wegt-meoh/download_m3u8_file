@@ -1,0 +1,6 @@
+*.ts
+*.mp4
+*.m3u8
+key
+.DS_Store
+node_modules
