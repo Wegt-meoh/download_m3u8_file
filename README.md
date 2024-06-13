@@ -7,6 +7,7 @@ download and convert to mp4 file by m3u8 file
 1. check you have **NodeJS** environment
 1. m3u8 file should be download from `http://your.target.site/0001/index.m3u8`
 1. key file should be download from `http://your.target.site/0001/key`
+1. you have installed `ffmpeg`
 
 ## usage
 
