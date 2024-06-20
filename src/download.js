@@ -34,9 +34,7 @@ export async function downloadTs(prefix, uri, maxRetryTime, downloadDir) {
                     }, 2000)
                 })
                 await retry()
-                console.log(
-                    uri + ' download failed retry ' + tryTime + ' times',
-                )
+                console.log(uri + ' download failed retry ' + tryTime + ' times')
             } else {
                 console.log('failed download ' + uri)
                 console.log(error)
