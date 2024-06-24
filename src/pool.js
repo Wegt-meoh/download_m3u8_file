@@ -33,13 +33,3 @@ export class PromisePool {
      */
     withConcurrency(concurrency) {}
 }
-
-function parseConcurrency(num) {
-    if (typeof num !== 'number' || num <= 0) {
-        throw new TypeError('concurrent num should be a positive Integer')
-    }
-
-    return Number.parseInt(num)
-}
-
-// PromisePool.withConcurrent(1)
